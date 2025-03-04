@@ -33,7 +33,7 @@ export async function GET(req) {
             status: "selected",
             message: "Congratulations! You have been selected.",
             links: {
-                whatsapp: "https://chat.whatsapp.com/your-group-link",
+                whatsapp: "https://chat.whatsapp.com/EqjWrvaRCxSC2dbLZQIL2G",
                 discord: "https://discord.gg/your-invite-link",
             },
         });
