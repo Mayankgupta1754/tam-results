@@ -13,7 +13,7 @@ export default function Home() {
         if (!regNumber) return alert("Please enter your registration number");
 
         try {
-            const response = await fetch(`/api/checkResult?regNumber=${regNumber.toLowerCase()}`);
+            const response = await fetch(`/api/checkResult?regNumber=${regNumber.toUpperCase()}`);
             const data = await response.json();
             setResult(data);
 
