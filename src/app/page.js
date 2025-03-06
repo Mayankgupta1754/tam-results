@@ -1,3 +1,4 @@
+
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -39,7 +40,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-indigo-900 via-gray-900 to-black text-white p-6 relative">
             {/* TAM Tech Team Header */}
             <h1 className="text-5xl font-extrabold mb-8 text-blue-400 drop-shadow-lg">
-                TAM Tech Team
+                TAM Core Tech Team
             </h1>
 
             {/* Selection Status Heading */}
