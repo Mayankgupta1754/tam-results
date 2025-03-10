@@ -78,10 +78,7 @@ export default function Home() {
                                 🎉 Join WhatsApp:{" "}
                                 <a href={result.links.whatsapp} className="text-blue-300 hover:underline" target="_blank">Click here</a>
                             </p>
-                            <p className="mt-2">
-                                🏆 Join Discord:{" "}
-                                <a href={result.links.discord} className="text-blue-300 hover:underline" target="_blank">Click here</a>
-                            </p>
+                        
                             {/* Confetti Animation */}
                             <Canvas className="absolute top-0 left-0 w-full h-full">
                                 <ConfettiExplosion />
